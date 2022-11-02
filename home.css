@@ -1,0 +1,94 @@
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1192%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1193)'%3e%3c/rect%3e%3cpath d='M0 0L625.57 0L0 119.81z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 119.81L625.57 0L677.33 0L0 243.7z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 243.7L677.33 0L968.34 0L0 414.53999999999996z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 414.53999999999996L968.34 0L1271.63 0L0 439.59z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 560L989.4300000000001 560L1440 393.26z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 393.26L989.4300000000001 560L930.33 560L1440 230.01999999999998z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 230.01999999999998L930.3299999999999 560L633.1299999999999 560L1440 126.55999999999999z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 126.56L633.13 560L568.65 560L1440 64.18z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1192'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1193'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(239%2c 232%2c 224%2c 1)' offset='0'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+}
+
+.nav__bar {
+  display: inline-flex;
+  background-color: #8a7c66;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.logo {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  width: 13rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.logo:hover {
+  color: #3f342e;
+}
+
+li a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  width: 13rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.dif__page {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  width: 13rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+li a:hover {
+  color: #3f342e;
+}
+
+.main {
+  position: relative;
+  text-align: center;
+  top: 170px;
+  bottom: 200px;
+}
+
+.welcome__h1 {
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.maddy__coffee {
+  position: relative;
+  top: 30px;
+  width: 400px;
+  height: 400px;
+  border-color: black;
+  border-radius: 100px;
+}
+
+.matn {
+  position: relative;
+  top: 50px;
+}
+
+.matn__vasat {
+  font-family: "Lexend Mega", sans-serif;
+}
+
+.matn__akhar {
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  top: 10px;
+}
