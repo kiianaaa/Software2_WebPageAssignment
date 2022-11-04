@@ -66,14 +66,64 @@ li a:hover {
 }
 
 .welcome__h1 {
-  font-family: "Mochiy Pop One", sans-serif;
+font-family: "Mochiy Pop One", sans-serif;
+  color: transparent;
+  background: conic-gradient(
+    #8eaa65 12%, #b58869 12%,
+    #0E2D2F 33%,
+    #AD8593 33%, #dda15e 55%,
+    #bc6c25 55%
+  );
+  background-size: 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  animation: expand-reverse 0.5s ease forwards;
+}
+
+.welcome__h1:hover {
+  animation: expand 0.5s ease forwards;
+}
+
+@keyframes expand {
+  0% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+
+  100% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+}
+
+@keyframes expand-reverse {
+  0% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+
+  100% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
 }
 
 .maddy__coffee {
   position: relative;
   top: 30px;
-  width: 400px;
-  height: 400px;
+  width: 280px;
+  height: 280px;
   border-color: black;
   border-radius: 100px;
 }
