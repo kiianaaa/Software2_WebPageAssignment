@@ -66,14 +66,12 @@ li a:hover {
 }
 
 .welcome__h1 {
-font-family: "Mochiy Pop One", sans-serif;
+  font-family: "Mochiy Pop One", sans-serif;
   color: transparent;
-  background: conic-gradient(
-    #8eaa65 12%, #b58869 12%,
-    #0E2D2F 33%,
-    #AD8593 33%, #dda15e 55%,
-    #bc6c25 55%
-  );
+  background: conic-gradient(#8eaa65 12%, #b58869 12%,
+      #0E2D2F 33%,
+      #AD8593 33%, #dda15e 55%,
+      #bc6c25 55%);
   background-size: 50%;
   background-clip: text;
   -webkit-background-clip: text;
