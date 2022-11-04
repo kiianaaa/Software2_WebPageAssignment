@@ -76,6 +76,10 @@ main {
   padding-right: 400px;
 }
 
+.matn__aval {
+  margin-left: 440px;
+}
+
 .matn1__h1 {
   position: relative;
   top: 60px;
@@ -122,13 +126,15 @@ main {
   font-family: "Noto Sans", sans-serif;
   text-align: center;
   padding-left: 100px;
+  margin-left: 50px;
 }
 
 .produc1__img {
-  width: 470px;
-  height: 470px;
+  width: 350px;
+  height: 350px;
   border-color: black;
-  border-radius: 100px;
+  border-radius: 10px;
+
 }
 
 .produc1__matn {
@@ -152,10 +158,10 @@ main {
 }
 
 .produc2__img {
-  width: 564px;
-  height: 564px;
+  width: 350px;
+  height: 350px;
   border-color: black;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 .produc2__matn {
@@ -169,6 +175,7 @@ main {
 .produc3 {
   width: 30%;
   padding: 5px;
+  padding-right: 200px;
 }
 
 .produc3__h2 {
@@ -178,10 +185,10 @@ main {
 }
 
 .produc3__img {
-  width: 564px;
-  height: 564px;
+  width: 350px;
+  height: 350px;
   border-color: black;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 .produc3__matn {
